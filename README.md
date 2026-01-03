@@ -1,36 +1,70 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🏛️ Imdang Museum | 임당유적전시관 클론코딩
+
+![React](https://img.shields.io/badge/-React-20232A?logo=react&logoColor=61DAFB&style=for-the-badge)
+![SCSS](https://img.shields.io/badge/-SCSS-FFAACD?logo=sass&style=for-the-badge)
+
+> 홍주미의 포트폴리오 사이트입니다. react/next.js 를 활용하여 제작되었으며,
+> GSAP를 활용하여 부드러운 스크롤 모션과 애니메이션을 적용하였습니다.
+
+---
+
+## Overview
+
+- **프로젝트명:** 홍주미 포트폴리오 2025
+- **개발기간:** 5일
+- **개발인원:** 1인 (퍼블리싱 / 다자인 전담)
+- **배포 URL:** [https://imdangmuseum.vercel.app](https://imdangmuseum.vercel.app)
+
+---
+
+## Tech
+
+| 구분           | 사용 기술      |
+| -------------- | -------------- |
+| **Frontend**   | `React` `SCSS` |
+| **Deployment** | `Vercel`       |
+
+---
+
+## Folder
+
+```bash
+
+app
+├── components
+│   ├── layout                       # 전역 레이아웃 관련
+│   │   ├── header
+│   │   └── footer
+│   │
+│   └── main                         # 메인 화면 구성 요소
+│       ├── ContactText.js
+│       ├── VisualEffect.js
+│       ├── VisualText.js
+│       └── WorkCard.js
+│
+├── styles
+│   ├── font.scss                    # 폰트 스타일 정의
+│   ├── style.scss                   # 메인 스타일
+│   └── variables.scss               # 색상/폰트/반응형 변수
+│
+├── globals.scss                     # 전역 스타일 (Reset + 공통 레이아웃)
+├── layout.js                        # 전체 레이아웃 파일
+└── page.js                          # 메인 페이지 진입 파일
+
+public
+└── img                              # 이미지 리소스
+
+```
 
 ## Getting Started
 
-First, run the development server:
-
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## License
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+_Copyright © 2025 Hong Jumi All rights reserved._

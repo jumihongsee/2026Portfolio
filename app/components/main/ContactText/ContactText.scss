@@ -1,0 +1,21 @@
+@import "@/styles/variables";
+
+.scroll-float {
+  overflow: hidden;
+}
+
+.scroll-float-text {
+  display: inline-block;
+  font-size: 7vw;
+  font-weight: 900;
+  text-align: center;
+  line-height: 1.5;
+  @media (max-width: $mob) {
+    line-height: 1.1;
+    font-size: 10vw;
+  }
+}
+
+.char {
+  display: inline-block;
+}

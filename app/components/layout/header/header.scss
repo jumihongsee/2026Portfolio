@@ -1,0 +1,73 @@
+@import "@/styles/variables";
+
+#main-header {
+  position: fixed;
+  z-index: 9999;
+  width: 100%;
+  height: 60px;
+  transform: translateY(-100%);
+  transition: transform 0.5s ease, backdrop-filter 0.5s ease;
+  &.active {
+    transform: translateY(0%);
+  }
+  &.scroll {
+    border-bottom: 1px solid $sub-col-g;
+    backdrop-filter: blur(20px);
+  }
+
+  .logo {
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50px;
+    transform: translateY(-50%);
+    @media (max-width: $s-mob) {
+      left: 30px;
+    }
+    a {
+      font-weight: bold;
+      font-size: 20px;
+      @media (max-width: $mob) {
+        font-size: 17px;
+      }
+    }
+  }
+  ul {
+    line-height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    @media (max-width: $mob) {
+      justify-content: flex-end;
+      padding: 0 50px;
+    }
+  }
+  li {
+    a {
+      color: #fff;
+      font-size: 18px;
+      position: relative;
+      transition: color 0.3s ease;
+      @media (max-width: $mob) {
+        font-size: 16px;
+      }
+      &::after {
+        position: absolute;
+        content: "";
+        width: 0%;
+        height: 1px;
+        background: $sub-col-y;
+        bottom: 0;
+        left: 0;
+        transition: width 0.3s ease;
+      }
+      &:hover {
+        color: $sub-col-y;
+        &::after {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
