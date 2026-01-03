@@ -1,4 +1,4 @@
-# 🏛️ Imdang Museum | 임당유적전시관 클론코딩
+# ✴️ Hong jumi Portfolio 2026 | 홍주미 포트폴리오 2026
 
 ![React](https://img.shields.io/badge/-React-20232A?logo=react&logoColor=61DAFB&style=for-the-badge)
 ![SCSS](https://img.shields.io/badge/-SCSS-FFAACD?logo=sass&style=for-the-badge)
