@@ -163,7 +163,7 @@ export default function Home() {
                   <div className="down-load-files">
                     <ul>
                       <li>
-                        <a href="/files/resume.pdf" download={"이력서_홍주미"}>
+                        <a href="/files/resume.pdf" download="이력서_홍주미">
                           <img
                             src="./img/down_load_icon_b.png"
                             alt="다운로드 아이콘 이미지"
@@ -174,7 +174,7 @@ export default function Home() {
                       <li>
                         <a
                           href="/files/career.pdf"
-                          download={"경력기술서_홍주미"}
+                          download="경력기술서_홍주미"
                         >
                           <img
                             src="./img/down_load_icon_b.png"
