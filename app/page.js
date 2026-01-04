@@ -163,7 +163,7 @@ export default function Home() {
                   <div className="down-load-files">
                     <ul>
                       <li>
-                        <a href="">
+                        <a href="/files/resume.pdf" download={"이력서_홍주미"}>
                           <img
                             src="./img/down_load_icon_b.png"
                             alt="다운로드 아이콘 이미지"
@@ -172,7 +172,10 @@ export default function Home() {
                         </a>
                       </li>
                       <li>
-                        <a href="">
+                        <a
+                          href="/files/career.pdf"
+                          download={"경력기술서_홍주미"}
+                        >
                           <img
                             src="./img/down_load_icon_b.png"
                             alt="다운로드 아이콘 이미지"
@@ -478,7 +481,7 @@ export default function Home() {
                       <ul className="caption-link">
                         <li>
                           <a
-                            href=""
+                            href="https://2026-portfolio-uqjy.vercel.app/"
                             target="_blank"
                             className="caption-visit-site"
                           >
@@ -614,15 +617,19 @@ export default function Home() {
                       </p>
                       <ul className="caption-link">
                         <li>
-                          <a href="" className="caption-visit-site">
+                          <a
+                            href="https://startartkorea.com/startplus"
+                            target="_blank"
+                            className="caption-visit-site"
+                          >
                             Visit Web
                           </a>
                         </li>
                         <li>
                           <a
                             target="_blank"
-                            href="https://www.notion.so/Hong-Jumi-1b843485994b80898131cb3815071f1d?p=28743485994b801db8fcc7667967f8bf&pm=c"
-                            title="트루럭셔리위드아트 호텔전시 웹을 자세히 설명한 노션 페이지로 이동"
+                            href="https://www.notion.so/Hong-Jumi-1b843485994b80898131cb3815071f1d?p=28743485994b806d80a6e8df24dce5b2&pm=c"
+                            title="스타트플러스 전시공간 웹을 자세히 설명한 노션 페이지로 이동"
                             className="caption-detail-view small-text"
                           >
                             <img
