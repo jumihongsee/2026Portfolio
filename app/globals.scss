@@ -16,7 +16,7 @@ body {
   scroll-behavior: smooth;
   overflow-x: hidden;
   color: var(--foreground);
-  background: var(--background);
+  background: $bg-col-n;
   font-family: $ft-f-pretendard;
   font-weight: $ft-m;
   -webkit-font-smoothing: antialiased;
